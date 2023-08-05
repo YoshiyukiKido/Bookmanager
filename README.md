@@ -8,9 +8,9 @@ cd Bookmanager
 composer update
 composer install
 npm install
-npm run dev
+npm run build
 ```
-
+これらは，laravel10で必要なコンポーネントをダウンロード，インストールするために行っている．npmはnodejs/JavaScriptのパッケージ管理コマンドだが，Bootstrap, JQueryなどもlaravel10には含まれているため，npmの操作も必要となる．
 次に環境の設定を行う必要がある
 ```
 cp .env.example .env
