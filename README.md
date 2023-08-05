@@ -41,4 +41,11 @@ php artisan db:seed --class Categories
 ```shell
 php artisan serve
 ```
-そうするとブラウザでhttp://127.0.0.1:8000とかにアクセス可能となる．
+そうするとブラウザでhttp://127.0.0.1:8000
+へアクセス可能となる．
+ログインユーザアカントをWeb画面から行った後，またターミナルの操作に戻る．Ctrl+CでWebサーバを止めたのち，
+```shell
+php artisan db:seed --class Books
+php artisan serve
+```
+として，Booksテーブルのテストデータを挿入する．その後，画面で本のデータが表示されていることを確認する．
