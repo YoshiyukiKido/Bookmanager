@@ -37,4 +37,8 @@ create database bookmanager;
 php artisan migrate
 php artisan db:seed --class Categories
 ```
-
+その後，laravel付属のWebサーバを起動する
+```shell
+php artisan serve
+```
+そうするとブラウザでhttp://127.0.0.1:8000とかにアクセス可能となる．
