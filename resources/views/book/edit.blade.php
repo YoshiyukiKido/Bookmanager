@@ -34,7 +34,7 @@
                         </div>
                         <div class="form-group">
                             <label class="col-md-2" for="note" >note</label>
-                            <input class="form-control" type="text" name="URL" value="{{ isset($book) ? $book->note : '' }}">
+                            <input class="form-control" type="text" name="note" value="{{ isset($book) ? $book->note : '' }}">
                         </div>
                     </div>
                     <div class="card-footer">
